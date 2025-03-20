@@ -1,7 +1,4 @@
 ## EX. NO:2 IMPLEMENTATION OF PLAYFAIR CIPHER
-
- 
-
 ## AIM:
 
 To write a C program to implement the Playfair Substitution technique.
@@ -17,9 +14,6 @@ To encrypt a message, one would break the message into digrams (groups of 2 lett
 4.	If the letters are not on the same row or column, replace them with the letters on the same row respectively but at the other pair of corners of the rectangle defined by the original pair.
 ## EXAMPLE:
 ![image](https://github.com/Hemamanigandan/EX-NO-2-/assets/149653568/e6858d4f-b122-42ba-acdb-db18ec2e9675)
-
- 
-
 ## ALGORITHM:
 ```
 STEP-1: Read the plain text from the user.
@@ -28,12 +22,8 @@ STEP-3: Arrange the keyword without duplicates in a 5*5 matrix in the row order 
 STEP-4: Group the plain text in pairs and match the corresponding corner letters by forming a rectangular grid.
 STEP-5: Display the obtained cipher text.
 ```
-
-
-
 Program:
 ```
-
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -84,7 +74,6 @@ void playfair(char ch1, char ch2, char key[MX][MX])
     }
     fclose(out);
 }
-
 int main() 
 {
     int i, j, k = 0, l, m = 0, n;
@@ -157,18 +146,13 @@ int main()
                 i++;
             }
         }
-  
     }
      printf("\nDecrypted text:%s",str);
     return 0;
 }
 ```
-
-
-
 ## Output:
 ![image](https://github.com/user-attachments/assets/00ee8b25-d697-455c-8e06-02c543b6dd04)
-
 ## Result:
 Hence the given playfair cipher program executed successfully.
 
