@@ -152,7 +152,7 @@ int main()
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/00ee8b25-d697-455c-8e06-02c543b6dd04)
+![Screenshot 2025-03-20 094549](https://github.com/user-attachments/assets/03c70777-b608-4b10-8c22-9e4cbc8aa239)
 ## Result:
 Hence the given playfair cipher program executed successfully.
 
